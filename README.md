@@ -1,4 +1,4 @@
-## Database-Design-for-Fun
+## Database-Design-for-Fun 
 This is a simple database design project created for learning and practice purposes. I got the idea after watching Dr. Charles Severance’s videos on database and web design. Although this is not my main field, I wanted to try building a small database for fun and to better understand how relational databases work.
 
 
@@ -50,4 +50,5 @@ The SQL code used to create these tables is available on GitHub and can be acces
 
 ### Database 02
 Many-to-Many Relationship
+
 Note: This database is a work in progress. I will continue developing it and update the schema in the next version.
