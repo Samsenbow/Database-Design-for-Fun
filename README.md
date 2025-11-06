@@ -44,4 +44,10 @@ Data is structured to avoid redundancy:
 - Each product in an order is stored in OrderItems.
 
 The design supports efficient storage, avoids data duplication, and enforces cascading deletions to keep related data consistent.
+
+The SQL code used to create these tables is available on GitHub and can be accessed here:
 <https://github.com/Samsenbow/Database-Design-for-Fun/blob/main/tables.sql>
+
+### Database 02
+Many-to-Many Relationship
+Note: This database is a work in progress. I will continue developing it and update the schema in the next version.
