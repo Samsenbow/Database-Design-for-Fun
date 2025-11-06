@@ -44,4 +44,4 @@ Data is structured to avoid redundancy:
 - Each product in an order is stored in OrderItems.
 
 The design supports efficient storage, avoids data duplication, and enforces cascading deletions to keep related data consistent.
-
+<https://github.com/Samsenbow/Database-Design-for-Fun/blob/main/tables.sql>
