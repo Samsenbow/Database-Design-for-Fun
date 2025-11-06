@@ -32,7 +32,7 @@ Here’s a simple Entity-Relationship Diagram (ERD):
 
 
 +---------------+        +------------+        +------------+
-|   Customer    |1      ∞|   Orders   |1      ∞| OrderItems |
+|   Customer    |        |   Orders   |        | OrderItems |
 +---------------+        +------------+        +------------+
 | customer_id PK|------->| order_id PK|------->| product_id PK|
 | name          |        | status     |        | product_name |
