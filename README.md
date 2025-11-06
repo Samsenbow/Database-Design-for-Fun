@@ -18,7 +18,6 @@ Due to the nature of this data, some vertical duplication of string values for c
 
 - Each Order can contain multiple OrderItems (one-to-many).
 
-Here’s a simple Entity-Relationship Diagram (ERD):
 +----------------+     +----------------+     +---------------+
 | Customer      |1    ∞| Orders |1      |    ∞| OrderItems    |
 +----------------+     +----------------+     +---------------+
@@ -28,6 +27,11 @@ Here’s a simple Entity-Relationship Diagram (ERD):
 +----------------+     | customer_id FK |     | quantity      |
                        | order_date     |     | order_id FK   |
                        +----------------+     +---------------+
+<p align="center">
+  <img src="image.png" alt="Loss Histogram" width="400">
+  <br>
+  <b>Figure 1:</b> Entity-Relationship Diagram (ERD).
+</p>
 
 
 
