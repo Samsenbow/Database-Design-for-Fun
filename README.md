@@ -51,4 +51,4 @@ The SQL code used to create these tables is available on GitHub and can be acces
 ### Database 02
 Many-to-Many Relationship
 
-Note: This database is a work in progress. I will continue developing it and update the schema in the next version.
+:pushpin: Note: This database is a work in progress. I will continue developing it and update the schema in the next version.
