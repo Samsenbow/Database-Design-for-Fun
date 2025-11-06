@@ -31,14 +31,5 @@ Here’s a simple Entity-Relationship Diagram (ERD):
 
 
 
-+---------------+        +------------+        +------------+
-|   Customer    |        |   Orders   |        | OrderItems |
-+---------------+        +------------+        +------------+
-| customer_id PK|------->| order_id PK|------->| product_id PK|
-| name          |        | status     |        | product_name |
-| address       |        | order_total|        | unit_price   |
-+---------------+        | customer_id FK|     | quantity     |
-                         | order_date    |     | order_id FK  |
-                         +---------------+     +------------+
 
 
