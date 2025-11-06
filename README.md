@@ -19,13 +19,13 @@ Due to the nature of this data, some vertical duplication of string values for c
 - Each Order can contain multiple OrderItems (one-to-many).
 
 Here’s a simple Entity-Relationship Diagram (ERD):
-+-----------+          +--------+          +------------+
-| Customer  |1        ∞| Orders |1        ∞| OrderItems |
-+-----------+          +--------+          +------------+
-| customer_id PK |---->| order_id PK |---->| product_id PK |
-| name          |     | status      |     | product_name |
-| address       |     | order_total |     | unit_price  |
-+---------------+     | customer_id FK | | quantity    |
-                      | order_date    | | order_id FK |
-                      +---------------+ +------------+
++----------------+     +----------------+     +---------------+
+| Customer      |1    ∞| Orders |1      |    ∞| OrderItems    |
++----------------+     +----------------+     +---------------+
+| customer_id PK |---->| order_id PK    |---->| product_id PK |
+| name           |     | status         |     | product_name  |
+| address        |     | order_total    |     | unit_price    |
++----------------+     | customer_id FK |     | quantity      |
+                       | order_date     |     | order_id FK   |
+                       +----------------+     +---------------+
 
