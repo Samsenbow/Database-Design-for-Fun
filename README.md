@@ -28,7 +28,7 @@ Due to the nature of this data, some vertical duplication of string values for c
                        | order_date     |     | order_id FK   |
                        +----------------+     +---------------+
 <p align="center">
-  <img src="image.png" alt="Loss Histogram" width="400">
+  <img src="Image.png" alt="Image" width="400">
   <br>
   <b>Figure 1:</b> Entity-Relationship Diagram (ERD).
 </p>
